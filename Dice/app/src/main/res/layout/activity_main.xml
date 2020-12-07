@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageDice"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:padding="5sp"
+        android:layout_marginTop="20sp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/RollDice"
+        android:layout_width="100sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="@string/play"
+        android:textColor="#731515"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/dice_bg"/>
+
+    <TextView
+        android:id="@+id/showDiceNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#142063"
+        android:layout_marginTop="50sp"/>
+
+</LinearLayout>
